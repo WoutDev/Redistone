@@ -1,0 +1,5 @@
+name: HCF-Core
+version: 1.0.0-SNAPSHOT
+main: be.woutdev.redistone.natives.bungee.NativeBungeePlugin
+author: Wout Ceulemans
+website: www.woutdev.be

@@ -1,0 +1,23 @@
+server-name: foo-bar
+environment: development
+
+# Redis server settings used for messaging (not storage, for that look under database)
+messaging:
+  hostname: localhost
+  port: 6379
+
+# Current supported types: mongodb, sql
+# If using SQL, the sql-prefixed properties should be valid as well
+# Most common used SQL-servers are discussed in the github wiki
+# sql-dialect: See list of supported dialects here: https://docs.jboss.org/hibernate/orm/5.0/javadocs/org/hibernate/dialect/package-summary.html
+# sql-driver: See wiki
+# sql-url: See wiki
+database:
+  type: sql
+  sql-dialect: org.hibernate.dialect.MySQL5Dialect
+  sql-driver: com.mysql.jdbc.Driver
+  sql-url: jdbc:mysql://localhost:3306/db
+  hostname: localhost
+  port: 3306
+  username: username
+  password: password

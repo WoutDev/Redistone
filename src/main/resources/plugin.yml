@@ -1,0 +1,5 @@
+name: HCF-Core
+version: 1.0.0-SNAPSHOT
+main: be.woutdev.redistone.natives.bukkit.NativeBukkitPlugin
+author: Wout Ceulemans
+website: www.woutdev.be
